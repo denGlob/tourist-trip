@@ -11,15 +11,15 @@ public class Pass {
     private Food food;
     private Transport transport;
 
-    enum PassType {
+    public enum PassType {
         BUSSINESS, WEDDING_TRIP, TREATMENT, SHOPPING, CROUISE
     }
 
-    enum Food {
+    public enum Food {
         ONCE, TWICE, THIRD, SWEDISH_TABLE, NO_FOOD
     }
 
-    enum Transport {
+    public enum Transport {
         BUSS, PLANE, CAR, SHIP
     }
 

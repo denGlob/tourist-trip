@@ -13,7 +13,7 @@ public class Booking {
 
     private int id;
     private User user;
-    private Cost cost;
+    private Budget budget;
     private Pass pass;
     private Decor decor;
 
@@ -23,7 +23,7 @@ public class Booking {
     public static class Builder {
         private int id;
         private User user;
-        private Cost cost;
+        private Budget budget;
         private Pass pass;
         private Decor decor;
 
@@ -40,8 +40,8 @@ public class Booking {
             return this;
         }
 
-        public Builder setCost(Cost cost) {
-            this.cost = cost;
+        public Builder setBudget(Budget budget) {
+            this.budget = budget;
             return this;
         }
 
@@ -68,7 +68,7 @@ public class Booking {
         public Booking build() {
             Booking booking = new Booking();
             booking.setId(id);
-            booking.setCost(cost);
+            booking.setBudget(budget);
             booking.setDecor(decor);
             booking.setStartWeekend(startWeekend);
             booking.setEndWeekend(endWeekend);
@@ -94,12 +94,12 @@ public class Booking {
         this.user = user;
     }
 
-    public Cost getCost() {
-        return cost;
+    public Budget getBudget() {
+        return budget;
     }
 
-    public void setCost(Cost cost) {
-        this.cost = cost;
+    public void setBudget(Budget budget) {
+        this.budget = budget;
     }
 
     public Pass getPass() {
