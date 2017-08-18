@@ -1,4 +1,4 @@
-package model.entities.users;
+package model.entities;
 
 /**
  * Created by denglob on 8/18/17.

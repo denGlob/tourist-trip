@@ -1,6 +1,4 @@
-package model.entities.users;
-
-import java.util.List;
+package model.entities;
 
 /**
  * Created by denglob on 8/15/17.
