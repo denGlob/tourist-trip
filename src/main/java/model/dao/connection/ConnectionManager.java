@@ -10,5 +10,7 @@ public class ConnectionManager {
     private DataSource dataSource;
     private static ThreadLocal<JdbcConnection> jdbcConnectionThreadLocal = new ThreadLocal();
 
+    private ConnectionManager() {
 
+    }
 }
