@@ -1,5 +1,6 @@
 package model.dao;
 
+import model.entities.Pass;
 import model.entities.User;
 import utils.exceptions.DAOException;
 
